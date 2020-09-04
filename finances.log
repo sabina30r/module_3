@@ -1,0 +1,32 @@
+2020-08-30 21:26:40 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-09-04 04:45:40  INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-04 04:45:40  WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-09-04 04:45:40  INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/finances]
+2020-09-04 04:45:41 INFO  pooling:124 - HHH10001001: Connection properties: {user=rs}
+2020-09-04 04:45:41 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-09-04 04:45:41 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-04 04:45:41 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-09-04 04:45:44 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2d85fb64] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-09-04 04:45:44 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-04 04:45:47 INFO  FinanceLogger:22 - Detecting of income category by name
+2020-09-04 04:45:47 INFO  FinanceLogger:33 - Adding a new operation for user's id = 1 , account_id = 1
+2020-09-04 04:45:47 INFO  FinanceLogger:22 - Detecting of the user by id = 1
+2020-09-04 04:45:47 INFO  FinanceLogger:38 - New income was detected
+2020-09-04 04:45:47 INFO  FinanceLogger:28 - Updating information for user User{id=1, name='Иванов Иван Иванович', email='ivanov@gmail.com', phoneNumber='+380668511073'}
+2020-09-04 04:45:47 INFO  FinanceLogger:59 - New operation was added for user by id = 1
+2020-09-04 04:45:47 INFO  FinanceLogger:28 - Detecting of expense category by name
+2020-09-04 04:45:47 INFO  FinanceLogger:33 - Adding a new operation for user's id = 1 , account_id = 1
+2020-09-04 04:45:47 INFO  FinanceLogger:22 - Detecting of the user by id = 1
+2020-09-04 04:45:47 INFO  FinanceLogger:53 - Expense from account balance was detected
+2020-09-04 04:45:47 INFO  FinanceLogger:28 - Updating information for user User{id=1, name='Иванов Иван Иванович', email='ivanov@gmail.com', phoneNumber='+380668511073'}
+2020-09-04 04:45:47 INFO  FinanceLogger:59 - New operation was added for user by id = 1
+2020-09-04 04:45:47 INFO  FinanceLogger:142 - Export account's statement. Id = 1
+2020-09-04 04:45:47 INFO  FinanceLogger:118 - Processing of operation's list detecting
+2020-09-04 04:45:47 INFO  FinanceLogger:78 - Calculation of the total income
+2020-09-04 04:45:47 INFO  FinanceLogger:72 - Calculating of the balance
+2020-09-04 04:45:47 INFO  FinanceLogger:78 - Calculation of the total income
+2020-09-04 04:45:47 INFO  FinanceLogger:97 - Calculation of the total expense
+
+
+
+
