@@ -15,9 +15,9 @@ import java.time.Month;
 
 public class Main {
     public static void main(String[] args) {
-        String userId = "1";
-        String username = "postgres";
-        String password = "ruzudzhenk";
+        String userId = args[0];
+        String username = args[1];
+        String password = args[2];
 
         DbConfig.configure(username, password);
 
@@ -43,8 +43,8 @@ public class Main {
 
         account.addOperationToCurrentUser(Long.valueOf(userId), 1L, expenseOperation);
 
-        LocalDate from = LocalDate.of(2020, Month.JUNE, 1);
-        LocalDate to = LocalDate.of(2020, Month.JULY, 31);
+        LocalDate from = LocalDate.of(2020, Month.SEPTEMBER, 1);
+        LocalDate to = LocalDate.of(2020, Month.SEPTEMBER, 31);
 
         new AccountDaoImpl(username, password).getAccountStatementToCsv(1L, from, to);
 
